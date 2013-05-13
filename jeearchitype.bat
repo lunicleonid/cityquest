@@ -1,0 +1,1 @@
+mvn -DarchetypeGroupId=org.codehaus.mojo.archetypes -DarchetypeArtifactId=webapp-javaee6 -DarchetypeVersion=1.5 -DarchetypeRepository=http://repo.maven.apache.org/maven2 -DgroupId=org.glassfish -DartifactId=hello-javaee7 -Dversion=1.0-SNAPSHOT -Dpackage=org.glassfish.hellojavaee7 -Darchetype.interactive=false --batch-mode archetype:generate
