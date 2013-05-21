@@ -1,12 +1,9 @@
-package org.glassfish.hellojavaee7;
+package persist.ejb;
 
 import ejb.TestEJB;
 
 import javax.ejb.EJB;
 import javax.faces.bean.ManagedBean;
-import javax.persistence.Entity;
-import javax.persistence.EntityManager;
-import javax.persistence.PersistenceContext;
 import java.io.Serializable;
 
 @ManagedBean
